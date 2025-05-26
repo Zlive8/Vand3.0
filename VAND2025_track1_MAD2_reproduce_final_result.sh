@@ -1,10 +1,10 @@
 #!/bin/bash
 
-DATASET_PATH="/data/public/dataset/mvtec_ad_2"
+DATASET_PATH="" #Root directory of the MVTec AD 2 dataset
 
-MODEL_DIR="/data/zhangxin/zhang/INP-Former++/result/0.5-fa-train1"
+MODEL_DIR="" #Directory to save/load trained model weights
 
-OUTPUT_DIR="/data/zhangxin/zhang/INP-Former++/result/0.5-fa-train1/result-erode"
+OUTPUT_DIR="" #Output directory for inference results
 
 # Train call
 python train.py \
